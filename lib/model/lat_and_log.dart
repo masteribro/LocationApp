@@ -17,15 +17,7 @@ class LatAndLong {
     state = json['state'];
   }
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['name'] = this.name;
-    data['lat'] = this.lat;
-    data['lon'] = this.lon;
-    data['country'] = this.country;
-    data['state'] = this.state;
-    return data;
-  }
+
 }
 
 
